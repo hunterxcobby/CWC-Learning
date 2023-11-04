@@ -1,7 +1,15 @@
-#include <stdio.h>
+#ifndef PRINTF_H
+#define PRINTF_H
 
-int main(void) 
+/* Prototype*/
+
+#endif
+
+/* This is a comment*/
+int main(void)/* Entry point*/
 {
-    printf("Hello, World!\n");
-    return 0;
+    printf("Hello World!\n");
+
+    return (0);
 }
+
