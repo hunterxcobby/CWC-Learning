@@ -1,0 +1,36 @@
+Assignment 2
+
+Create a repository called CWC-Learning
+Create a directory inside the repository and name it "C-programming"
+This is where you exercises, your assigments example practices are going to be 
+so create three different directories for these different purposes with names as
+1. Tests
+2. Tasks
+
+for now , only these two directories must exists in your repository
+
+in the test directory, your answers or responses should be in a file called
+0-answers.txt
+And a file called 0-questions.md
+this will just be a file that contains a copy of the questions i am about to give you 
+
+THese are the questions in which you will be flliing your answers into this directory
+
+questions
+1. What is the purpose of a header file in C programming, and what is its typical file extension?
+2. What is the significance of the -o option in GCC compilation?
+3 . Mention the five flag options we discussed about with their purpose
+4. write a the command you will use to create an alias for these options called gcc_flags so you do not type 
+them manually whenever you want to compile a programming
+4. In 5 simple statements explain why C is fun !!
+
+
+tasks 
+Remember not to use chatGPT for the tasks as i will know :)
+it can assist you when you are confused but please do not copy solutions from it
+The solution to this task should be in the task directory you created with file name,"printf.c"
+1. Write a simple program that prints "Hello, World" on a newline
+2. Your program must run without any errors
+3. You are to use the option flags we discusses about to run your program, either than that,
+it will not be accepted 
+4. Add comments to explain what the printf function does 
