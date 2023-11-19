@@ -6,6 +6,7 @@ int main(void)
     int num = 19;
     float dec = 21.9;
     char alpha = '=';
+    const int accountNumber = 0507323;
 
     
     printf("integer = %i\t", num);
