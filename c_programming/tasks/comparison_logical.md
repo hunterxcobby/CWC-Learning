@@ -39,15 +39,15 @@ int main(void)
     scanf("%d", &age3);
 
     /* Perform comparisons and logical operations*/
-    if (age1 > age2 && age1 > age3) 
+    if (/* Your logic goes here */) 
     {
         printf("Person 1 is the oldest.\n");
     } 
-    else if (age2 > age1 && age2 > age3) 
+    else if (/* Your logic goes here */) 
     {
         printf("Person 2 is the oldest.\n");
     } 
-    else if (age3 > age1 && age3 > age2) 
+    else if (/* Your logic goes here */) 
     {
         printf("Person 3 is the oldest.\n");
     } 
@@ -56,7 +56,7 @@ int main(void)
         printf("There is a tie in ages.\n");
     }
 
-    if (age1 == age2 || age1 == age3 || age2 == age3) 
+    if (/* Your logic goes here */) 
     {
         printf("At least two persons share the same age.\n");
     } 
