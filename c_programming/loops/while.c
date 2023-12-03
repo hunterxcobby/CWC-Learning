@@ -2,8 +2,7 @@
 
 int main(void)
 {
-    int counter = 1;
-
+    int counter = 0;
 
      while(counter < 11)/* Infinite loop*/
      {
