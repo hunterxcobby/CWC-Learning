@@ -3,7 +3,7 @@
 int main(void)
 {
     int numbers[] = {20, 45, 59, 70} ;
-    char *string = "AKwesi";
+    char *string = "Akwesi";
 
     printf("%d\n", numbers[0]);
 
