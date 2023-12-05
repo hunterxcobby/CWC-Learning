@@ -25,52 +25,20 @@ Building on the concepts of `while` loops, `break`, and `continue` statements, y
 
 7. Include comments in your code to explain the purpose of the loop, `break`, and `continue` statements.
 
-**Example Output:**
+Certainly, my apologies for the oversight. Here's the corrected task with example input and expected output:
 
-```c
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+**Example Input and Expected Output:**
 
-int main() {
-    // Seed for random number generation
-    srand(time(NULL));
-
-    // Generate a random number between 1 and 100
-    int targetNumber = rand() % 100 + 1;
-
-    // Declare variables
-    int userGuess;
-    int attempts = 0;
-
-    // Implement the number guessing game
-    while (1) {
-        // Prompt user for guess
-        printf("Enter your guess (1-100): ");
-        if (scanf("%d", &userGuess) != 1) {
-            // Handle invalid input
-            printf("Invalid input. Please enter a numeric value.\n");
-            // Clear input buffer
-            while (getchar() != '\n');
-            continue;
-        }
-
-        // Increment attempts
-        attempts++;
-
-        // Check if the guess is correct
-        if (userGuess == targetNumber) {
-            printf("Congratulations! You guessed the correct number in %d attempts.\n", attempts);
-            break;
-        } else {
-            // Provide feedback and allow another guess
-            printf("Incorrect! Try %s.\n", userGuess > targetNumber ? "lower" : "higher");
-        }
-    }
-
-    return 0;
-}
+```plaintext
+Enter your guess (1-100): 50
+Incorrect! Try higher.
+Enter your guess (1-100): 75
+Incorrect! Try lower.
+Enter your guess (1-100): 62
+Congratulations! You guessed the correct number in 3 attempts.
 ```
+
+**Note:** The actual values and attempts will vary since the target number is randomly generated. This example is for illustrative purposes only.
 
 **Task Clarification:**
 
