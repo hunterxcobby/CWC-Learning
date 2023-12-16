@@ -20,4 +20,12 @@ int main(void) /* the entry point*/
 }
 
 
-void greetings(void)/*parameters*/
+void greeting(void)/*parameters*/
+{
+    /* the block of code to be executed*/
+    printf("greetings Akwesi\n");
+    printf("I have been called\n");
+    printf("I am executing\n");
+
+
+}
