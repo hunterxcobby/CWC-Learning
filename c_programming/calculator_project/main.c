@@ -1,18 +1,21 @@
 #include <stdio.h>
 #include <string.h>
 
+int add(int num1, int num2);
+
 int main(void)
 {
     int num1;
     int num2;
     int choice;
+    int result;
     char terminate[5];
     char *string[] = {"yes", "y", "YES"};
 
 
 
 do {
-    printf(" Calculator Application\n");
+    printf("\n Calculator Application\n");
     printf("<----------------------->\n");
 
     printf("Enter two numbers\n");
@@ -31,7 +34,9 @@ do {
     switch (choice)
     {
         case 1:
-            printf("You chose 1\n");
+            /*printf("You chose 1\n");*/
+            result = add(num1, num2);
+            printf("Sum is %d\n", result);
             break;
         case 2:
             printf("You chose 2\n");
@@ -56,4 +61,14 @@ do {
 } while (strcmp(terminate, string[0]) == 0);
 
     return (0);
+}
+
+
+/* Addition*/
+int add(int num1, int num2)
+{
+    int result;
+    result = num1 + num2;
+
+    return (result);
 }
