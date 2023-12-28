@@ -5,6 +5,7 @@ int main(void)
     int num1;
     int num2;
     int choice;
+    char terminate[5];
 
 
     printf(" Calculator Application\n");
@@ -42,7 +43,11 @@ int main(void)
             /*continue;*/
     }
 
+    printf("Do you want to continue? (yes or no): ");
+    
+    scanf("%s", terminate);
 
+    printf("You chose %s\n", terminate);
 
     return (0);
 }
