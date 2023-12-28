@@ -36,8 +36,10 @@ int main(void)
             break;
         case 4:
             printf("You chose 4\n");
+            break;
         default:
-            
+            printf("Invalid choice!\n");
+            /*continue;*/
     }
 
 
