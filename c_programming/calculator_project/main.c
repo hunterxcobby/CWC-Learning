@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
@@ -6,11 +7,12 @@ int main(void)
     int num2;
     int choice;
     char terminate[5];
+    char *string[] = {"yes", "y", "YES"};
 
 
-    printf(" Calculator Application\n");
-    printf("<----------------------->\n");
 
+do {
+    
     printf("Enter two numbers\n");
     scanf("%d %d", &num1, &num2);
 
@@ -49,7 +51,7 @@ int main(void)
 
     printf("You chose %s\n", terminate);
 
-    /*while (strcmp(terminate, "yes" || "Y" || "YES" == 0))*/
+} while (strcmp(terminate, string[0]) == 0);
 
     return (0);
 }
