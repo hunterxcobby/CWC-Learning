@@ -12,7 +12,9 @@ int main(void)
 
 
 do {
-    
+    printf(" Calculator Application\n");
+    printf("<----------------------->\n");
+
     printf("Enter two numbers\n");
     scanf("%d %d", &num1, &num2);
 
