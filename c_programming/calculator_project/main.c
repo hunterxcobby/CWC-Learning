@@ -4,6 +4,7 @@ int main(void)
 {
     int num1;
     int num2;
+    int choice;
 
 
     printf(" Calculator Application\n");
@@ -18,6 +19,27 @@ int main(void)
     printf("\n1. Addition\n2. Subtraction\n3. Division\n4. Multiplication\n");
 
     printf("\nSelect an operation (1-4): ");
+    scanf("%d", &choice);
+
+    /*printf("This is the user's choice = %d\n", choice);*/
+
+    switch (choice)
+    {
+        case 1:
+            printf("You chose 1\n");
+            break;
+        case 2:
+            printf("You chose 2\n");
+            break;
+        case 3:
+            printf("You chose 3\n");
+            break;
+        case 4:
+            printf("You chose 4\n");
+        default:
+            
+    }
+
 
 
     return (0);
