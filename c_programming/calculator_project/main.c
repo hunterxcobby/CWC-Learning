@@ -49,5 +49,7 @@ int main(void)
 
     printf("You chose %s\n", terminate);
 
+    /*while (strcmp(terminate, "yes" || "Y" || "YES" == 0))*/
+
     return (0);
 }
