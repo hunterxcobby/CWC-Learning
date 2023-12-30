@@ -5,6 +5,7 @@ int add(int num1, int num2);
 int mul(int num1, int num2);
 int sub(int num1, int num2);
 int div(int num1, int num2);
+int calculate(int num1, int num2, int (*operation)(int num1, int num2));
 
 int main(void)
 {
@@ -117,7 +118,7 @@ int sub(int num1, int num2)
     return (result);
 }
 
-int calculate(int num1, int num2, int *operation(int num1, int num2))
+int calculate(int num1, int num2, int (*operation)(int num1, int num2))
 {
     return (operation(num1, num2));
 }
