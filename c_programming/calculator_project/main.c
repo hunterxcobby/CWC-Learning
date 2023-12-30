@@ -1,13 +1,6 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
-int add(int num1, int num2);
-int mul(int num1, int num2);
-int sub(int num1, int num2);
-int div(int num1, int num2);
-int calculate(int num1, int num2, int (*operation)(int num1, int num2));
-
-int main(void)
+int main(void) /* entry point*/
 {
     int num1;
     int num2;
@@ -79,46 +72,4 @@ do {
 } while (strcmp(terminate, "yes") == 0);
 
     return (0);
-}
-
-
-/* Addition*/
-int add(int num1, int num2)
-{
-    int result;
-    result = num1 + num2;
-
-    return (result);
-}
-
-/* Multiplication*/
-int mul(int num1, int num2)
-{
-    int result;
-    result = num1 * num2;
-
-    return(result);
-}
-
-int div(int num1, int num2)
-{
-    int result;
-
-    result = num1 / num2;
-
-    return(result);
-}
-
-int sub(int num1, int num2)
-{
-    int result;
-
-    result = num1 - num2;
-
-    return (result);
-}
-
-int calculate(int num1, int num2, int (*operation)(int num1, int num2))
-{
-    return (operation(num1, num2));
 }
