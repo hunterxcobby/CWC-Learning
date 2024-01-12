@@ -11,7 +11,7 @@ int main()
    int d = 4;
    int result;
 
-    result = add(9, a, b, c, d);
+    result = add(6, a, b, c, d);
     printf("The sum is %d\n", result);
     return 0;
 }
