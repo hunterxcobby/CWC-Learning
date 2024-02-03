@@ -1,20 +1,22 @@
 #include <stdio.h>
 
-int add(int a, int b, int c, int d);
+int add(int a, int b);
 
 int main(void)
 {
-    int a = 9;
-    int b = 3;
-    int c = 15;
-    int d = 10;
+    int a;
+    int b;
 
-    printf("%d\n", add(a, b, c, d));
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+
+    printf("%d\n", add(a, b));
     return (0);
 }
 
 
-int add(int a, int b, int c, int d)
+int add(int a, int b)
 {
-    return (a + b + c + d);
+    return (a + b);
 }
